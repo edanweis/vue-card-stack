@@ -150,8 +150,7 @@ var debounce = function debounce(func, wait, immediate) {
       isDragging: false,
       dragStartX: 0,
       dragStartY: 0,
-      isDraggingRight: false,
-      dragEnabled: true
+      isDraggingRight: false
     };
   },
   mounted: function mounted() {
@@ -489,7 +488,7 @@ var __vue_render__ = function __vue_render__() {
   }, [_vm._ssrNode("<div class=\"vue-card-stack__stack\"" + _vm._ssrStyle(null, {
     height: _vm.cardHeight + _vm.paddingVertical * 2 + "px",
     width: _vm.containerWidth
-  }, null) + " data-v-8fa76066>", "</div>", _vm._l(_vm.stack, function (card, index) {
+  }, null) + " data-v-08e4f776>", "</div>", _vm._l(_vm.stack, function (card, index) {
     return _vm._ssrNode("<div class=\"vue-card-stack__card\"" + _vm._ssrStyle(null, {
       opacity: card.opacity,
       display: card.display,
@@ -499,7 +498,7 @@ var __vue_render__ = function __vue_render__() {
       zIndex: card.zIndex,
       transition: "transform " + (_vm.isDragging ? 0 : _vm.speed) + "s ease, opacity " + _vm.speed + "s ease",
       transform: "\n          scale(" + card.scale + ", " + card.scale + ") \n          translate(" + card.xPos + "px, 0)\n        "
-    }, null) + " data-v-8fa76066>", "</div>", [_vm._t("card", null, {
+    }, null) + " data-v-08e4f776>", "</div>", [_vm._t("card", null, {
       "card": Object.assign({}, card, {
         $index: index
       })
@@ -516,8 +515,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-8fa76066_0", {
-    source: ".vue-card-stack__wrapper[data-v-8fa76066]{position:relative}.vue-card-stack__stack[data-v-8fa76066]{position:relative;overflow:hidden}.vue-card-stack__card[data-v-8fa76066]{position:absolute;transform-origin:0 50%;cursor:grab}",
+  inject("data-v-08e4f776_0", {
+    source: ".vue-card-stack__wrapper[data-v-08e4f776]{position:relative}.vue-card-stack__stack[data-v-08e4f776]{position:relative;overflow:hidden}.vue-card-stack__card[data-v-08e4f776]{position:absolute;transform-origin:0 50%;cursor:grab}",
     map: undefined,
     media: undefined
   });
@@ -525,10 +524,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-8fa76066";
+var __vue_scope_id__ = "data-v-08e4f776";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-8fa76066";
+var __vue_module_identifier__ = "data-v-08e4f776";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
